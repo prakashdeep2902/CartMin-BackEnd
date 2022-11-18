@@ -6,7 +6,7 @@ app.use(express.json())
 var cors = require('cors')
 
 app.use(cors())
-const mongoURI = "mongodb+srv://prakash2902:%409Deep2000@cluster0.avu6h7a.mongodb.net/mincart?retryWrites=true&w=majority"
+const mongoURI = "mongodb+srv://prakash2902:%409Deep2000@cluster0.avu6h7a.mongodb.net/mincart?retryWrites=true&w=majority";
 
 mongoose.connect(mongoURI, {
 
